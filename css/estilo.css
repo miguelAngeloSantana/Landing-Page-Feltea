@@ -1,0 +1,211 @@
+:root {
+    --botton-color: #363636;
+    --ft-ss:  Arial, sans-serif;
+    --bx-bl: rgba(0, 0, 0, 0.40);
+}
+
+
+/*Configurando o corpo*/
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+/*Configurações do lado esquerdo*/
+
+/*Configurando a lista*/
+
+.lista {
+    display: block;
+}
+
+nav.lista ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    left: 69%;
+    top: -10px;
+    font-size: 10px;
+    font-family: var(--ft-ss);
+    font-weight: bold;
+}
+
+nav.lista li {
+    display: inline-block;
+    padding: 0;
+    margin: 20px
+}
+
+/*Configurando o icone da esquerda*/
+
+.icone  {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: var(--ft-ss);
+    top: 6px;
+    left: 150px;
+}
+
+/*Configurando o texto da esquerda*/
+#lado-esquerdo h3 {
+    position: relative;
+    top: 280px;
+    text-transform: uppercase;
+    left: 150px;
+    font-family: var(--ft-ss);
+}
+
+#lado-esquerdo h5 {
+    position: relative;
+    top: 300px;
+    left: 150px;
+    text-align: justify;
+    margin-top: -20px;
+    font-family: var(--ft-ss);
+}
+
+
+.ad {
+    background-color: var(--botton-color);
+    font-family: var(--ft-ss);
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left: 150px;
+    top: 340px;
+    padding: 15px 40px 15px 20px; 
+    border: none;
+    border-radius: 0 0 50px 0;
+    cursor: pointer;
+    box-shadow: 1px 20px 30px var(--bx-bl);
+}
+
+
+#lado-esquerdo h2 {
+    position: relative;
+    top: 280px;
+    left: 290px;
+    font-family: var(--ft-ss);
+}
+
+#lado-esquerdo h6 {
+    position: relative;
+    top: 260px;
+    left: 350px;
+}
+
+/*Configurando o intens do meio*/
+.meio h1 {
+    position: absolute;
+    left: 41%;
+    bottom: 390px;
+    font-size: 60px;
+    font-family: var(--ft-ss);
+    text-transform: uppercase;
+}
+
+
+.meio h2 {
+    position: absolute;
+    left: 44%;
+    bottom: 380px;
+    margin-top: -40px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+
+
+.meio img {
+    position: absolute;
+    width: 15%;
+    height: 45%;
+    left: 42%;
+    bottom: 100px;
+    margin-bottom: 10px;
+}
+
+
+
+/*Configurando a cor da esquerda*/
+#lado-esquerdo {
+    left: 0;
+    background: url("../_photos/download.png") center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+} 
+
+
+
+/*Configurações do lado direito*/
+.lista-direito {
+    display: block;
+}
+
+.lista-direito ul {
+    position: absolute;
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 10px;
+    font-weight: bold;
+    right: 69%;
+    top: -10px;
+    font-family: var(--ft-ss);
+}
+
+.lista-direito li {
+    display: inline-block;
+    padding: 0;
+    margin: 20px
+}
+
+/*Configurando as informações na direita*/
+
+.ig h3 {
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: var(--ft-ss);
+    border: 1px solid #000;
+    background-color: #FFD700;
+    color: #006400;
+    padding: 25px 10px 10px 30px;
+    border-radius:90px 0px 0px 0px;
+    cursor: pointer;
+    box-shadow: 1px 20px 30px var(--bx-bl);
+}
+
+
+.ig2 {
+    position: absolute;
+    left: 50%;
+    top: 420px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: var(--ft-ss);
+    border: 1px solid #000;
+    background-color: #FFD700;
+    color: #006400;
+    padding: 10px 20px 2px 25px;
+    border-radius:100px 0px 0px 0px;
+    cursor: pointer;
+    box-shadow: 1px 20px 30px var(--bx-bl);
+}
+
+
+
+
+#lado-direito {
+    right: 0;
+    background: url('../_photos/Papel-de-Parede-Texturizado-Pure-II-Linho-Verde-187612.jpg') center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
